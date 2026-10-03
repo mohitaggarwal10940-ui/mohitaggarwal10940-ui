@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150">
+<defs>
+ <linearGradient id="f" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#ff3d00"/><stop offset=".55" stop-color="#ff8a00"/><stop offset="1" stop-color="#ffd166" stop-opacity="0"/></linearGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="3"/></filter>
+</defs>
+<rect width="1200" height="150" fill="#050505" rx="20"/>
+<g fill="url(#f)" filter="url(#blur)" opacity=".85">
+ <path d="M0 150 Q40 90 75 145 Q110 50 145 150 Q190 75 225 150 Q265 45 305 150 Q345 85 385 150 Q425 35 465 150 Q505 70 545 150 Q585 45 625 150 Q665 80 705 150 Q745 40 785 150 Q825 70 865 150 Q905 45 945 150 Q985 80 1025 150 Q1065 40 1105 150 Q1140 80 1200 150 L1200 150 L0 150Z">
+  <animateTransform attributeName="transform" type="translate" values="0 0;-25 0;0 0" dur="2.8s" repeatCount="indefinite"/>
+ </path>
+</g>
+<text x="600" y="65" text-anchor="middle" font-family="monospace" font-size="16" letter-spacing="5" fill="#ffb86b">🔥 STILL BUILDING 🔥</text>
+<text x="600" y="92" text-anchor="middle" font-family="monospace" font-size="11" fill="#8b949e">ideas in → experiments out</text>
+</svg>
